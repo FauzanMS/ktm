@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-image: url(back2.jpg);
+    height: 800px;
+    background-attachment: fixed;
+
+}
+.overlay{
+    text-align: center;
+}
+.headof{
+    display: flex;
+    justify-content: space-around;
+position: fixed;
+}
+nav{
+    display: flex;
+    padding-left: 43rem;
+    padding-top: 2rem;
+}
+.logo{
+    padding-top: -5rem;
+    height: 5rem;
+}
+#lis{
+    display: inline-block;
+    justify-content: space-around;
+    margin-right: 2rem;
+}
+#a1{
+    text-decoration: none;
+    color:black;
+    font-family: Staatliches;
+}
+#a1:hover{
+    background-color:rgb(255, 115, 0);
+    border-bottom: 2px solid black;
+    padding:2px;
+    transition: all 0.4s;
+}
+.butn{
+    display: inline-flex;
+    padding-left: 24rem;
+    padding-top: 3rem;
+}
+.explore
+{
+    padding: 1.5rem 4rem;
+    margin-right: 2.5rem;
+    font-family: Staatliches;
+    font-size:x-large;
+    color: white;
+    border: 2px solid rgb(255, 115, 0);
+    background-color: rgb(255, 115, 0);
+}
+.book
+{
+    padding: 1.5rem 4rem;
+    font-family: Staatliches;
+    font-size:x-large;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+}
+.explore:hover{
+    color: rgb(255, 115, 0);
+    border: 2px solid rgb(255, 115, 0);
+    background:transparent;
+}
+.book:hover{
+    color: rgb(255, 115, 0);
+    border: 2px solid rgb(255, 115, 0);
+    background:transparent;
+}
+.headlines{
+    padding-top: 16rem;
+    padding-left: 17rem;
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+iframe{
+    width: 1000px;
+    height: 500px;
+}
+#pe{
+    font-size: 2rem;
+    margin-left: 3rem;
+    margin-top: -2rem;
+}
+.container1{
+display: flex;
+justify-content: space-between;
+margin-right: -8px;
+}
+.src{
+    height: 12rem;
+    
+}
+.card{
+    margin-left: 1.1px;
+}
+.hs{
+    font-family: Staatliches;
+    font-size:x-large;
+    color: black;
+    margin-left: 4rem;
+}
+.sub{
+    font-family: Staatliches;
+    font-size:large;
+    color: rgb(255, 115, 0);
+    margin-left: 5rem;
+}
+.card:hover{
+    box-shadow: 0 0 20px rgb(255, 115, 0);
+}
+#warn{
+    text-align: center;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    color: rgb(196, 196, 196);
+    font-size: .8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6rem;
+}
+footer{
+    padding: 2rem ;
+    background-color: black;
+    color: white;
+    font-size:large;
+    color: rgb(255, 115, 0);
+}
+#list{
+    text-decoration: none;
+    color:white;
+    font-size:large;
+    font-family:monospace;
+    list-style: none;
+    line-height: 2rem;
+}
+#foot{
+    margin-right: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.sect{
+    display: inline-flex;
+    justify-content: space-between;
+}
+#pic{
+    width: 2rem;
+    background-color: rgb(255, 115, 0);
+}
+#bton{
+    background-color: black;
+    font-family: Staatliches;
+    font-size: 2rem;
+    color: rgb(255, 115, 0);
+    width: 12rem;
+    height: 6rem;
+}
+#bton:hover{
+    background-color: rgb(255, 115, 0);
+    color: black;
+}
